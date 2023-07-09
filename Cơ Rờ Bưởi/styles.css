@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to right, green, pink);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-family: "poppins", sans-serif;
+  color: white;
+}
+.item {
+  width: 300px;
+  height: 400px;
+  background: black;
+  text-align: center;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.introduce {
+  margin-top: 35px;
+}
+
+.image {
+  width: 120px;
+  height: 120px;
+  border: 4px solid orange;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  transform: translateY(25px);
+}
+
+.image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-position: top;
+}
+
+.introduce span:first-child {
+  display: block;
+  font-size: 30px;
+}
+
+.introduce span:last-child {
+  font-size: 20px;
+  color: orange;
+}
+
+.item-social {
+  margin-top: 25px;
+}
+.item-icon a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.item-buton {
+  margin-top: 25px;
+  padding: 4px;
+  border: 2px solid orange;
+  border-radius: 5px;
+  color: white;
+  background-color: black;
+}
+
+.item-buton:hover {
+  background-color: orange;
+  transition: 0.5s;
+}
+
+.image:hover {
+  width: 100%;
+  height: 100%;
+  border-radius: unset;
+  transition: 0.5s;
+  transform: unset;
+  border: none;
+}
